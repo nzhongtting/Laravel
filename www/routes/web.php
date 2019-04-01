@@ -11,9 +11,12 @@
 |
 */
 
-Route::get('/', function () {
+
+Route::get('/','PagesController@index');
+
+/*Route::get('/', function () {
     return view('welcome');
-});
+});*/
 
 /*Route::get('/hello', function () {
     // return view('welcome');
@@ -25,7 +28,7 @@ Route::get('/about',function() {
     return view('pages.about');
 } );
 
-Route::get('/user/{id}',function($id) {
+/*Route::get('/user/{id}',function($id) {
     return 'This is user : '.$id;
-} );
+} );*/
 
