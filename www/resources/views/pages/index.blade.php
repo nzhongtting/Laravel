@@ -7,7 +7,7 @@
     <title>{{config('app.name','LSAPP')}}</title>
 </head>
 <body>
-<h1>About PAGE</h1>
-<p>The About page</p>
+<h1>INDEX PAGE</h1>
+<p>The index page</p>
 </body>
 </html>
